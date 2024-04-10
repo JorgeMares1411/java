@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>cubo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body bgcolor="withe">
+
+    <h1>Figuras Lael</h1>
+
+    <table>
+
+        <tr>
+
+            <td>alto</td>
+
+            <td><input type="range" min="10" max="300" value="10" id="alto"> </td>
+
+            <td><div id="valto">10</div></td>
+
+        </tr>
+
+        <tr>
+
+            <td>ancho</td>
+
+            <td><input type="range" min="10" max="300" value="10" id="ancho"> </td>
+
+            <td><div id="vancho">10</div></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Radius</td>
+
+            <td><input type="range" min="10" max="300" value="1" id="radio"> </td>
+
+            <td><div id="vradio">10</div></td>
+
+        </tr>
+        <tr>
+
+            <td>Rotate</td>
+
+            <td><input type="range" min="-100" max="300" value="1" id="rotate"> </td>
+
+            <td><div id="vrotate">10</div></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Traslate x</td>
+
+            <td><input type="range" min="-200" max="300" value="1" id="traslatex"> </td>
+
+            <td><div id="vtraslatex">10</div></td>
+
+        </tr>
+        <tr>
+
+            <td>Traslate y</td>
+
+            <td><input type="range" min="-200" max="300" value="1" id="traslatey"> </td>
+
+            <td><div id="vtraslatey">10</div></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Scale</td>
+
+            <td><input type="range" min="10" max="300" value="10" id="Scale"> </td>
+
+            <td><div id="vScale">10</div></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Sombra x</td>
+
+            <td><input type="range" min="-100" max="300" value="10" id="sombrax"> </td>
+
+            <td><div id="vsombrax">10</div></td>
+
+        </tr>
+        <tr>
+
+            <td>color sombra</td>
+
+            <td><input type="color" id="colors"> </td>
+
+            <td></td>
+
+        </tr>
+
+
+        
+
+        <tr>
+
+            <td>color</td>
+
+            <td><input type="color" id="colorf"> </td>
+
+            <td></td>
+
+        </tr>
+
+        <tr>
+
+            <td>ancho border</td>
+
+            <td><input type="range" min="1" max="10" value="1" id="anchob"> </td>
+
+            <td><div id="vanchob">1</div></td>
+
+        </tr>
+
+        <tr>
+
+            <td>color</td>
+
+            <td><input type="color" id="colorb"> </td>
+
+            <td></td>
+
+        </tr>
+
+        <td> Tipo borde</td>
+
+        <td>
+
+            <select name="" id="tipob">
+
+            <option value="solid">solid</option>
+
+            <option value="dashed">dashed</option>
+
+            <option value="double">double</option>
+
+        </select>
+
+        </td>
+
+        <td></td>
+
+    </tr>
+
+    </table>
+<br><br><br>
+    <div id="cajita"></div>
+
+    <script src="java.js"></script>
+
+    
+
+</body>
+
+</html>
+
